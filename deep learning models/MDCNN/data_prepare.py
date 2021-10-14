@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
-
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 import math
 
 def get_data(filenames,data_len,class_num,batch_size,shuffle):
