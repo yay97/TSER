@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
-
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 class Net:
     def __init__(self):
